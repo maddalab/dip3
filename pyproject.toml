@@ -7,6 +7,7 @@ authors = ["Bhaskar Maddala <maddalab@gmail.com>"]
 [tool.poetry.dependencies]
 python = "^3.8"
 jupyter = "^1.0.0"
+mypy-ipython = "^20.8.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
