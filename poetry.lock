@@ -199,6 +199,14 @@ optional = false
 python-versions = "*"
 
 [[package]]
+name = "ipython-unittest"
+version = "0.3.1"
+description = "Add unittest cell magics to IPython for easily running tests"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "ipywidgets"
 version = "7.5.1"
 description = "IPython HTML widgets for Jupyter"
@@ -338,6 +346,19 @@ python-versions = ">=3.6"
 [package.dependencies]
 pywin32 = {version = ">=1.0", markers = "sys_platform == \"win32\""}
 traitlets = "*"
+
+[[package]]
+name = "jupyter-dojo"
+version = "0.3.2"
+description = "A JupyterLab and Jupyter Notebook extension for rendering unittest results"
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.dependencies]
+ipython = ">=1.0.0"
+ipython-unittest = ">=0.3.0"
+notebook = ">=4.3.0"
 
 [[package]]
 name = "jupyterlab-pygments"
@@ -897,7 +918,7 @@ python-versions = "*"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "6b1808f2ae12a07078ef79b23622b2ba9ff661dd009906974828829b4b7d1974"
+content-hash = "62bb254d9ca05b1a126c34435205b71c21c1d15dec345815bf0bd039c34089e1"
 
 [metadata.files]
 appnope = [
@@ -1016,6 +1037,10 @@ ipython-genutils = [
     {file = "ipython_genutils-0.2.0-py2.py3-none-any.whl", hash = "sha256:72dd37233799e619666c9f639a9da83c34013a73e8bbc79a7a6348d93c61fab8"},
     {file = "ipython_genutils-0.2.0.tar.gz", hash = "sha256:eb2e116e75ecef9d4d228fdc66af54269afa26ab4463042e33785b887c628ba8"},
 ]
+ipython-unittest = [
+    {file = "ipython_unittest-0.3.1-py2.py3-none-any.whl", hash = "sha256:2cb00fe28115fb3ece83cd6e68ec5ffac46e3e4c4eac3ff8eb25563029c000aa"},
+    {file = "ipython_unittest-0.3.1.tar.gz", hash = "sha256:817c540b7efb1dc510fff9af6ad283ed85252096a3e41a4b091e2f6d04eee1c6"},
+]
 ipywidgets = [
     {file = "ipywidgets-7.5.1-py2.py3-none-any.whl", hash = "sha256:13ffeca438e0c0f91ae583dc22f50379b9d6b28390ac7be8b757140e9a771516"},
     {file = "ipywidgets-7.5.1.tar.gz", hash = "sha256:e945f6e02854a74994c596d9db83444a1850c01648f1574adf144fbbabe05c97"},
@@ -1052,6 +1077,10 @@ jupyter-console = [
 jupyter-core = [
     {file = "jupyter_core-4.7.0-py3-none-any.whl", hash = "sha256:0a451c9b295e4db772bdd8d06f2f1eb31caeec0e81fbb77ba37d4a3024e3b315"},
     {file = "jupyter_core-4.7.0.tar.gz", hash = "sha256:aa1f9496ab3abe72da4efe0daab0cb2233997914581f9a071e07498c6add8ed3"},
+]
+jupyter-dojo = [
+    {file = "jupyter_dojo-0.3.2-py3-none-any.whl", hash = "sha256:9f13e77a0a4185434a3462443627801314b72192a83d3be187aa6273ce46ec09"},
+    {file = "jupyter_dojo-0.3.2.tar.gz", hash = "sha256:a473ba827fcbf8f99c86373c7863b95e308ecc9c9efafe1ddd4180310efcaa8e"},
 ]
 jupyterlab-pygments = [
     {file = "jupyterlab_pygments-0.1.2-py2.py3-none-any.whl", hash = "sha256:abfb880fd1561987efaefcb2d2ac75145d2a5d0139b1876d5be806e32f630008"},
