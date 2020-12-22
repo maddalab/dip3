@@ -1,0 +1,2 @@
+這是一個很長的文本，我想將其翻譯成中文，以便在我打算在線閱讀有關python的資料時，可以將其稱為chinese.txt並將其用於python筆記本。
+Dive Into Python 是为有经验的程序员编写的一本 Python 书。
